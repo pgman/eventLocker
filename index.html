@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title></title>
+<meta charset="utf-8">
+<meta name="description" content="">
+<meta name="author" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="js/main.js"></script>
+<script src="js/eventlocker.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function(e) {
+	Main.init();	
+}, false);
+</script>
+</head>
+<body>
+<input id="lock_button" type="button" value="lock 5 second"><br>
+<input id="test_button" type="button" value="test"><br>
+<input id="help_button" type="button" value="help"><br>
+<br>
+<br>
+event log<br>
+<textarea id="log_textarea" style="width: 400px; height: 500px;"></textarea>
+</body>
+</html>
